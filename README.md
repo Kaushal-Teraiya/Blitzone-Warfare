@@ -14,7 +14,7 @@ The focus of this repository is the **C# gameplay and networking code**.
 
 ### Game Thumbnail
 
-![Blitzone Warfare](thumbnail.png)
+![Blitzone Warfare](CTF.png)
 
 ### Gameplay Video
 

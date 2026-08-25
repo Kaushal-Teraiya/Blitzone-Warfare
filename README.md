@@ -18,6 +18,13 @@ https://youtu.be/9sCAUyiXATg?si=M80l7BT4tphuSBNR
 
 ---
 
+## 🎮 Download & Play
+
+Download the playable **Blitzone Warfare** build from Google Drive:
+
+https://drive.google.com/drive/u/2/folders/1j2Sqw39ly1grwNKql2kMVwXob89cl2SA
+
+
 ## 🌐 Portfolio
 
 Full project breakdown, technical details, screenshots, and development information:
@@ -714,3 +721,9 @@ https://kaushal-portfolio-liart.vercel.app/Projects/MultiplayerCTF
 ### 🎥 Gameplay Demo
 
 https://youtu.be/9sCAUyiXATg?si=M80l7BT4tphuSBNR
+
+## 🎮 Download & Play
+
+Download the playable **Blitzone Warfare** build from Google Drive:
+
+https://drive.google.com/drive/u/2/folders/1j2Sqw39ly1grwNKql2kMVwXob89cl2SA

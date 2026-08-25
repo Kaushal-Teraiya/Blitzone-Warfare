@@ -43,6 +43,7 @@ public class playerShoot : NetworkBehaviour
     public int syncedAmmo;
 
     public bool isReloading = false;
+    private PlayerHealth playerHealth;
 
     // ======= New interface and wrapper (non-breaking): =======
     // We add IGun so different gun types can implement behaviour.
@@ -128,6 +129,7 @@ public class playerShoot : NetworkBehaviour
         currentWeapon = WeaponManager.GetcurrentWeapon();
         _player = GetComponent<player>();
         recoil = GetComponentInChildren<GunRecoil>();
+        playerHealth = GetComponent<PlayerHealth>();
         gunHolder = transform.Find("WeaponHolder");
         //ShotgunRecoil = GetComponentInChildren<Animator>();
         AssignAnimatorsForGuns();
@@ -785,7 +787,7 @@ public class playerShoot : NetworkBehaviour
         _player.TakeDamage(_damage, attackerIdentity, hitPoint, hitDirection, hitBodyPartName);
 
         // Update health on UI
-        _player.RpcUpdateHealthUI(_player.currentHealth);
+        playerHealth.RpcUpdateHealthUI(_player.currentHealth);
         _player.UpdateHealth(_player.currentHealth);
         PlayerHealthBar _playerHealthBar = _player.GetComponent<PlayerHealthBar>();
         if (_playerHealthBar != null)
